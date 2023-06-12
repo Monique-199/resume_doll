@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="style5.css">
+	<link rel="stylesheet" media="screen and(max-width:200px)" href="tablet.css">
+	<link rel="stylesheet" media="screen and(max-width:130px" href="phone.css">
+</head>
+<body>
+	<nav class="navbar">
+		<ul>
+			<li><a href="#home">Home</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#portfolio">Portfolio</a></li>
+			<li><a href="#services">Services</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+	</nav>
+	
+	<section id="home">
+		<div class="main">
+			
+		 <h1 class="headings">I AM<br>MONIQUE KERUBO</h1>
+			
+			<button class="btn">
+				HIRE ME
+			</button>
+			
+		</div>
+		<img src="Images/pexels-965467.jpg" style="width:1500px;height:950px;">
+		
+	</section>
+		
+
+	<section id="about">
+		<h1 class="headings">ABOUT ME</h1>
+		<div id="pic">
+			
+			<img src="Images/Monique2.jpg">
+			<div id="intro">
+				<h2>Monique nyakundi</h2>
+				<p>A young kenyan student passionate about web development. Currently in her third year at the university. Her dream is to one day become among the most influential females in the IT sector. I am also passionate with 3D modelling.</p>
+			</div>
+		</div>
+	</section>
+	<section id="portfolio">
+		<h1 class="headings">PORTFOLIO</h1>
+		<div class="gallery">
+			<img src="Images/Screenshot 2023-06-12 131435.png">
+			<img src="Images/Screenshot 2023-06-12 142026.png">
+			<img src="Images/Screenshot 2023-06-12 142717.png">
+			<img src="Images/Screenshot 2023-06-12 150138.png">
+			<img src="Images/Screenshot 2023-06-12 145042.png">
+			<img src="Images/Screenshot 2023-06-12 143606.png">
+			
+		</div>
+
+		
+	</section>
+	<section id="services">
+		<h1 class="headings">SERVICES</h1>
+		<div class="row">
+			<div class="box">
+				<img src="Images/design.jpg">
+				<h1 class="headings">Website design</h1>
+				<p>I do web design, both front-end and back-end development and hence im a full stack developer, having vast knowledge of javascript, html css and php. My Cv contains different references of projects ive done for various clients.</p>
+				
+			</div>
+			<div class="box">
+				<img src="Images/xui.jpg">
+				<h1 class="headings">UX/UI <br>DESIGN</h1>
+				<p>I can also apply choreography and also im a cinematographer. I try to incorporate web design using the above various skills to give your webpage the desired look and feel.</p>
+				
+			</div>
+			<div class="box">
+				<img src="Images/marketing.jpg">
+				<h1 class="headings">Digital marketing</h1>
+				<p>With the surging numbers of covid cases i 2020, online and digital marketing has become the trend, a lot of people now have gone digital, i use ecommerce to reach out to a large number of people who are interested in my products</p>
+				
+			</div>
+		</div>
+		
+	</section>
+	<br>
+	<br>
+	<section id="contact">
+		<h1 class="headings">CONTACT</h1>
+		<form action="" class="form">
+			<input type="text" name="name"class="input"placeholder="Enter your name">
+			<input type="email" name="email"class="input"placeholder="Enter your email">
+			<textarea name="msg" id="msg"cols="30" rows="10" placeholder="Enter your message"></textarea>
+			<input type="submit" value="SEND" id="send">
+		</form>
+	</section>
+	<script type="text/javascript">
+	var MenuItems=document.getElementById("MenuItems");
+
+	MenuItems.style.maxHeight="0px";
+	function menutoggle(){
+		if(MenuItems.style.maxHeight=="0px"){
+			MenuItems.style.maxHeight="200px"
+		
+
+		}
+		else{
+			MenuItems.style.maxHeight="0px"
+		}
+	}
+</script>
+
+
+
+
+
+</body>
+</html>
